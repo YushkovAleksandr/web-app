@@ -1,0 +1,18 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}My ART{% endblock %}
+
+{% block content %}
+    <div class="my_worksh1"><h1>Gallery</h1></div>
+    <div class="wr">                  
+        <img src="{% static 'main/img/2.jpg' %}">
+        <img src="{% static 'main/img/3.jpg' %}">
+        <img src="{% static 'main/img/4.jpg' %}">
+        <img src="{% static 'main/img/5.jpg' %}">
+        <img src="{% static 'main/img/6.jpg' %}">
+        <img src="{% static 'main/img/7.jpg' %}">
+        <img src="{% static 'main/img/8.jpg' %}">
+    </div>
+
+    {% endblock %}

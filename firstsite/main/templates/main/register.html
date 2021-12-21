@@ -1,0 +1,13 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Create an account{% endblock %}
+
+{% block content %}
+    <h1 style="margin-left: 330px;">Create an account</h1>
+    <p style="margin-left: 330px;">Please, sign up using the following form:</p>
+    <form style="margin-left: 330px;"action="." method="post">
+        {{ user_form.as_p }}
+        {% csrf_token %}
+        <p><input type="submit" value="Create my account"></p>
+    </form>
+{% endblock %}
