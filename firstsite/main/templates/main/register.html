@@ -6,8 +6,22 @@
     <h1 style="margin-left: 330px;">Create an account</h1>
     <p style="margin-left: 330px;">Please, sign up using the following form:</p>
     <form style="margin-left: 330px;"action="." method="post">
-        {{ user_form.as_p }}
+        <p><label for="id_username">Username:</label> <input type="text" name="username" maxlength="150" required="" id="id_username" style="margin-left: 50px;"> <span class="helptext"></span></p>
+
+
+<span class="helptext"></span>
+<p><label for="id_email">Email address:</label> <input type="email" name="email" maxlength="254" id="id_email" style="margin-left: 24px"></p>
+
+<label for="id_password">Password:</label>
+<input type="password" name="password" required="" id="id_password" style="margin-left: 55px">
+<p><label for="id_password2">Repeat password:</label> <input type="password" name="password2" required="" id="id_password2" style="margin-top: 16px"></p>
+
+<input type="hidden" name="csrfmiddlewaretoken" value="efbEjcyvYqRC32rQNXEo26dzQ2RoeU9nyKgQEwjCjGSWCpVdaWlLC9bnZn7FUJxE">
+<p><button class="btn btn-warning"><input type="submit" value="Create my account"></button></p>
+
+
         {% csrf_token %}
-        <p><input type="submit" value="Create my account"></p>
+        
     </form>
 {% endblock %}
+

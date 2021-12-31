@@ -30,6 +30,10 @@ aside .logo{
     font-weight: bold;
     margin-left: 20px;
 }
+aside .registration a .btn:hover {
+    background : #f4ff96;
+    box-shadow: 0 0 5px #f4ff96, 0 0 200px #f4ff96;
+}
 
 aside ul {
     font-family: 'Cambay', sans-serif;
@@ -68,6 +72,11 @@ main .features_home p {
     max-width: 800px;
     margin: 20px auto;
     
+}
+
+.features_home form .btn:hover {
+    background : #f4ff96;
+    box-shadow: 0 0 5px #f4ff96, 0 0 200px #f4ff96;
 }
 
 main .wr {

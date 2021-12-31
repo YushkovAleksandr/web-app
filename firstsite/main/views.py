@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from main.forms import AddPost
-from .models import Author, Post
+from .models import Post
 from datetime import datetime
 from .forms import UserRegistrationForm
 
@@ -27,7 +27,7 @@ def add_post(request):
             post_ent.title = form.cleaned_data['title']
             post_ent.content = form.cleaned_data['content']
             post_ent.issued = datetime.now()
-            post_ent.author = Author.objects.get(name = request.user.username)
+        
 
             post_ent.save()
 
