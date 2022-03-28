@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+body {
+    background-color:rgb(17,2,33);
+    color: #fff;
+    
+}
+aside {
+    position: fixed;  
+    float: left;
+    background-color: black;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+aside img {
+    width: 100px;
+    float: left;
+}
+
+aside .logo{
+    font-family: 'Cambay', sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+aside .registration a .btn:hover {
+    background : #f4ff96;
+    box-shadow: 0 0 5px #f4ff96, 0 0 200px #f4ff96;
+}
+
+aside ul {
+    font-family: 'Cambay', sans-serif;
+    list-style: none;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+aside ul li {
+    font-family: 'Cambay', sans-serif;
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+aside ul li:hover, aside ul a:hover {
+    
+    color: red;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features_home {
+    float: left;
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 75%;
+}
+main .features_home h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    margin: 20px auto;
+
+}
+main .features_home p {
+    max-width: 800px;
+    margin: 20px auto;
+    
+}
+
+.features_home form .btn:hover {
+    background : #f4ff96;
+    box-shadow: 0 0 5px #f4ff96, 0 0 200px #f4ff96;
+}
+
+main .wr {
+    float: left;
+    height: 40%;
+    padding: 10px;
+    width: 50%;
+    column-count: 2;
+    
+}
+main .wr img {
+    width: 550px;
+    display: block;
+    margin: auto;
+    margin-left: 350px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+    transition: transform .55s ease;
+}
+main .wr img:hover {
+    transform: scale(1.30);
+}
+
+main .my_worksh1 h1 {
+    font-family: 'Cambay', sans-serif;
+    padding: 50px;
+    margin-left: 52%;
+    margin-right: auto;
+    width: 6em;
+    top: 15px;
+}
+main .shoph2 h1{
+    font-family: 'Cambay', sans-serif;
+    margin-right: auto;
+    width: 6em;
+    top: 15px;
+    
+}
+main .wr2 {
+    float: left;
+    height: 40%;
+    padding: 10px;
+    width: 50%;
+    column-count: 2;
+    
+}
+main .wr2 img {
+    width: 550px;
+    display: block;
+    margin: auto;
+    margin-left: 350px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+    transition: transform .55s ease;
+}
+main .wr2 img:hover {
+    transform: scale(1.50);
+}
+main .features {
+    float: left;
+    max-width: 600px;
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 75%;
+}
+main .features h1 {
+    margin-left: 80px;
+    width: 800px;
+}
+main ul {
+    font-family: 'Cambay', sans-serif;
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+main ul li {
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    transition: transform .9s ease;
+
+}
+main ul li:hover, ul a:hover {
+    color: aqua;
+    text-decoration: none;
+    transform: scale(1.10);
+}
+
+main .features p {
+    font-family: 'Poiret One', cursive;
+    margin-top: 40px;
+    margin-left: 180px;
+
+}
+main .features h6 {
+    font-family: 'Poiret One', cursive;
+    margin-left: 120px;
+}
+
+aside .registration p {
+    font-family: 'Cambay', sans-serif;
+    margin-left: 32px;
+    margin-top: 30px;
+
+}
+aside .regisration a {
+    font-family: 'Cambay', sans-serif;
+    font-size: small;
+
+}
